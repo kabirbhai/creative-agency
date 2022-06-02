@@ -4,44 +4,42 @@ import logo from "../../images/logos/logo.png";
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
+      <nav
+        style={{ fontFamily: "'Roboto Slab', serif" }}
+        className="navbar navbar-expand-lg "
+      >
+        <div className="container d-flex justify-content-between  ">
           <a className="navbar-brand" href="/">
-            <img width={70} src={logo} alt="logo" />
+            <img width={80} src={logo} alt="logo" />
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div>
+            <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  className="nav-link active fs-6 fw-bolder"
+                  aria-current="page"
+                  href="/"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active" href="/">
+                <a className="nav-link active fs-6 fw-bolder" href="/">
                   Our portfolio
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active" href="/">
+                <a className="nav-link active fs-6 fw-bolder" href="/">
                   Our Team
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active" href="/">
+                <a className="nav-link active fs-6 fw-bolder" href="/">
                   Contact us
                 </a>
               </li>
+              <button className="btn btn-outline-primary">Login</button>
             </ul>
           </div>
         </div>
