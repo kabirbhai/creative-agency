@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <header>
       <nav
-        style={{ fontFamily: "'Roboto Slab', serif" }}
+        style={{
+          fontFamily: "'Roboto Slab', serif",
+        }}
         className="navbar navbar-expand-lg "
       >
         <div className="container d-flex justify-content-between  ">
