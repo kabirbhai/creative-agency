@@ -11,7 +11,10 @@ const Services = () => {
         {" "}
         provide awesome <span className="text-success">Services</span>
       </h2>
-      <div style={{ gap: "22px" }} className="d-flex justify-content-evenly">
+      <div
+        style={{ gap: "22px", margin: "100px" }}
+        className="d-flex justify-content-evenly"
+      >
         <Service title={"web & mobile design"} icon={<MdMobileFriendly />} />
         <Service
           title={"Graphic design"}
