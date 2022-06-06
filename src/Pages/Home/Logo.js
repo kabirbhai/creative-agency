@@ -9,8 +9,8 @@ const Logo = () => {
   return (
     <section className="container mx-auto  ">
       <div
-        style={{ gap: "23px" }}
-        className="d-flex justify-content-center align-items-center"
+        style={{ gap: "50px", margin: "50px 0px" }}
+        className="d-flex justify-content-center  align-items-center"
       >
         <img width={100} src={airbnb} alt="" />
         <img width={100} src={google} alt="" />

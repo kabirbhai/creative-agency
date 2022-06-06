@@ -1,14 +1,20 @@
 import React from "react";
 import frame from "../../images/logos/Frame.png";
 import "../../styles/Home.css";
+import banner from "../../images/banner.jpg";
 
 const Banner = () => {
   return (
-    <section>
-      <div
-        style={{ marginTop: "102px", height: "100vh" }}
-        className=" d-flex container align-items-center justify-content-center "
-      >
+    <section
+      style={{
+        backgroundImage: `url(${banner})`,
+        height: "100vh",
+
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className=" d-flex container align-items-center justify-content-center ">
         <div>
           <h1 className="my-4">Welcome to Our creative agency</h1>
           <p className="my-4">

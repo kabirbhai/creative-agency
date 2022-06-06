@@ -9,7 +9,7 @@ const Navbar = () => {
         style={{
           fontFamily: "'Roboto Slab', serif",
         }}
-        className="navbar navbar-expand-lg "
+        className="navbar navbar-expand-lg bg-primary"
       >
         <div className="container d-flex justify-content-between  ">
           <a className="navbar-brand" href="/">
@@ -21,7 +21,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   to="/home"
-                  className="nav-link active fs-6 fw-bolder"
+                  className="nav-link text-light active fs-6 "
                   aria-current="page"
                 >
                   Home
@@ -30,20 +30,23 @@ const Navbar = () => {
               <li className="nav-item ">
                 <Link
                   to="/portfolio"
-                  className="nav-link active fs-6 fw-bolder"
+                  className="nav-link text-light active fs-6 "
                 >
                   Our portfolio
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link to="/ourTeam" className="nav-link active fs-6 fw-bolder">
+                <Link
+                  to="/ourTeam"
+                  className="nav-link text-light active fs-6 "
+                >
                   Our Team
                 </Link>
               </li>
               <li className="nav-item ">
                 <Link
                   to="/contactUs"
-                  className="nav-link active fs-6 fw-bolder"
+                  className="nav-link text-light active fs-6 "
                 >
                   Contact us
                 </Link>
