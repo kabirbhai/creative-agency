@@ -14,7 +14,9 @@ const OurWorks = () => {
       style={{ padding: "30px 0px", margin: "40px 0px" }}
       className="container mx-auto bg-info rounded "
     >
-      <h1 className="text-center my-4">Here some of our work</h1>
+      <h2 className="text-center my-4 fw-bolder text-uppercase text-light">
+        Here some of our work
+      </h2>
       <Swiper
         spaceBetween={30}
         pagination={{

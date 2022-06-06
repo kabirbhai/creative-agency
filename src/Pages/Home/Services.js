@@ -7,7 +7,10 @@ import { RiComputerLine } from "react-icons/ri";
 const Services = () => {
   return (
     <section className="container">
-      <h2 style={{ marginTop: "10rem" }} className="text-center">
+      <h2
+        style={{ marginTop: "10rem" }}
+        className="text-center text-uppercase fw-bolder"
+      >
         {" "}
         provide awesome <span className="text-success">Services</span>
       </h2>
