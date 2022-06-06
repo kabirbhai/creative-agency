@@ -9,12 +9,11 @@ const Banner = () => {
       style={{
         backgroundImage: `url(${banner})`,
         height: "100vh",
-
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className=" d-flex container align-items-center justify-content-center ">
+      <div className=" d-flex container align-items-center h-100 justify-content-between ">
         <div>
           <h1 className="my-4">Welcome to Our creative agency</h1>
           <p className="my-4">
