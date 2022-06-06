@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section>
       <div
-        style={{ marginTop: "102px" }}
+        style={{ marginTop: "102px", height: "100vh" }}
         className=" d-flex container align-items-center justify-content-center "
       >
         <div>
@@ -16,12 +16,12 @@ const Banner = () => {
             you can find something new. If you don't find anything please report
             our website we really appreciate it. Thank you{" "}
           </p>
-          <button className="btn btn-secondary text-white fw-bold fs-5  ">
+          <button className="btn btn-info text-white fw-bold fs-5  ">
             Explore more
           </button>
         </div>
         <div>
-          <img style={{ width: "500px" }} src={frame} alt="frame" />
+          <img style={{ width: "400px" }} src={frame} alt="frame" />
         </div>
       </div>
     </section>
